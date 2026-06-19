@@ -1,0 +1,31 @@
+STL 
+
+ "STL — Standard Template Library — is C++'s built-in toolkit of ready-to-use components. It has four pillars: Containers to store your data, like vectors, maps, and stacks. Iterators to move through that data, like a cursor. Algorithms to work on that data, like sort, search, and reverse. And Functors to customize how those algorithms behave. Instead of building all this from scratch, STL gives you clean, tested, and fast tools that work with any data type — you just pick what you need and STL does the rest."
+
+
+STL Containers 
+
+STL Containers are predefined class templates in the C++ Standard Template Library that are used to store and organize data efficiently. They provide built-in implementations of common data structures such as vectors, lists, stacks, queues, sets, and maps, allowing programmers to store, access, and manipulate data without implementing these data structures from scratch.
+
+
+What is a class template?
+A class template is a blueprint for creating classes that can work with different data types. Instead of writing separate classes for int, float, or string, we write a single template and specify the data type when creating objects. This promotes code reusability and generic programming.
+
+template <typename T>
+class Box {
+public:
+    T data;
+};
+
+int main() {
+    Box<int> b1;
+    Box<string> b2;
+}
+
+** Types of Containers in C++ STL
+1. Sequence Containers
+Sequence containers implement linear data structures in which the elements can be accessed sequentially
+
+2. Associative Containers
+3. Unordered Associative Containers
+4. Container Adapters
